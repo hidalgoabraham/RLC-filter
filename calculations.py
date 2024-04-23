@@ -21,6 +21,8 @@ H = Z_parallel / (R + Z_parallel)
 print("H(jw)=")
 # sympy.pprint(H.simplify().expand(complex=True), use_unicode=False)
 sympy.pprint(H.simplify())
+# sympy.pprint(H)
+
 # sympy.pprint(H.simplify(), use_unicode=False)
 
 print("\n" + "#" * 100 + "\n")
@@ -41,8 +43,8 @@ print("/_H(jw)=")
 sympy.pprint(sympy.arg(H).simplify())
 
 
-phase_H = sympy.atan(sympy.im(H) / sympy.re(H))
+# phase_H = sympy.atan(sympy.im(H) / sympy.re(H))
 
-print("\n" + "#" * 100 + "\n")
-print("/_H(jw)=")
-sympy.pprint(phase_H.simplify())
+# print("\n" + "#" * 100 + "\n")
+# print("/_H(jw)=")
+# sympy.pprint(phase_H.simplify())
