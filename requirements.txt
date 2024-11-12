@@ -2,3 +2,4 @@ sympy
 numpy
 matplotlib
 mplcursors
+PyQt5
